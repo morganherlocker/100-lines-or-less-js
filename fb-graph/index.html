@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+  <title>fb gis search</title>
+  <link href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/dojo/dijit/themes/claro/claro.css" rel="stylesheet" type="text/css" >
+  <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
+  <script src='http://code.jquery.com/jquery-latest.min.js' type="text/javascript"></script>
+
+</head>
+    <body>
+      <div id='search'>
+        <input type='text' id='searchText'></input>
+        <button id='searchButton' onClick='search()'>Search</input>
+      </div>
+      <div id='wrapper'>
+        <div id="map">
+        </div>
+      </div>
+    </body>
+</html>
